@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+body > * {
+  margin-inline: 1rem;
+}
+
+h1,
+h2 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+h3 {
+  font-family: 'Satisfy', cursive;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
