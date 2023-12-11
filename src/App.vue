@@ -1,41 +1,15 @@
 <template>
+  <side-bar />
   <header-all />
-  <home-view />
-  <heading-pics-description
-    headline="Demnächst"
-    imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"
-  />
-  <hr />
-  <heading-pics-description headline="Aktuelles"
-    imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
-  <hr />
-  <heading-pics-description headline="Neueste Beiträge"
-    imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
-  <hr />
-  <heading-pics-description headline="Beliebt"
-    imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
-  <hr />
-  <heading-pics-description headline="Shop"
-    imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
-  <hr>
-  <heading-pics-description headline="Auswandern"
-    imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
-  <hr />
+  <router-view />
 </template>
 
 <script>
 import HeaderAll from './views/HeaderAll.vue'
-import HomeView from './views/HomeView.vue'
-import HeadingPicsDescription from './views/HeadingPicsDescription.vue'
+import SideBar from './views/SideBar.vue'
 
 export default {
-  components: { HeaderAll, HomeView, HeadingPicsDescription }
+  components: { HeaderAll, SideBar }
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
+  <h2>Über mich</h2>
   <main>
-    <h2>Über mich</h2>
     <img src="@/assets/pictures/ich.jpg" alt="Picture of myself" />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus at corporis
@@ -33,12 +33,19 @@ export default {
 
 <style scoped>
 img {
+  margin-right: 0.5rem;
   width: 40%;
   float: left;
-  margin-right: 0.5rem;
 }
 
-p {
-  text-align: justify;
+@media screen and (min-width: 900px) {
+  main {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 25%;
+  }
 }
 </style>

@@ -1,17 +1,34 @@
 <template>
   <main>
-    <font-awesome-icon icon="fa-solid fa-bars" style="color: white" />
-    <div><h1>Mallorca</h1></div>
+    <input type="checkbox" name="menu" id="menu" v-model="mainStore.burgerActive" />
+    <label for="menu">
+      <font-awesome-icon icon="fa-solid fa-bars" style="color: white" />
+    </label>
+    <div>
+      <h1>Mallorca</h1>
+    </div>
   </main>
 </template>
 
 <script>
+import { useMainStore } from '@/stores/mainStore.js'
+
 export default {
-  name: 'HeaderAll'
+  name: 'HeaderAll',
+  setup() {
+    const mainStore = useMainStore()
+    return {
+      mainStore
+    }
+  }
 }
 </script>
 
 <style scoped>
+#menu {
+  display: none;
+}
+
 main {
   display: flex;
   align-items: center;

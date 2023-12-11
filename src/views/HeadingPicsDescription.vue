@@ -1,8 +1,10 @@
 <template>
   <h2>{{ headline }}</h2>
   <div>
-    <figure v-for="index in 5" :key="index" :href="linkToSite">
-      <img :src="imgSrc" :alt="imgAltText" />
+    <figure v-for="index in 5" :key="index">
+      <router-link to="/demnächst/eins">
+        <img :src="imgSrc" :alt="imgAltText" />
+      </router-link>
       <figcaption>{{ captionText }}</figcaption>
     </figure>
   </div>
