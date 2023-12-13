@@ -6,8 +6,8 @@
         <font-awesome-icon icon="fa-solid fa-xmark" style="color: black" id="xmark" />
       </label>
       <ul>
-        <li>Demnächst</li>
-        <li>Aktuelles</li>
+        <li><a href="link">Demnächst</a></li>
+        <li><a href="link">Aktuelles</a></li>
         <li>Neueste Beiträge</li>
         <li>Beliebt</li>
         <li>Shop</li>
@@ -22,6 +22,7 @@ import { useMainStore } from '@/stores/mainStore.js'
 
 export default {
   name: 'SideBar',
+  props: ['link'],
   setup() {
     const mainStore = useMainStore()
     return {
@@ -64,6 +65,7 @@ li {
   position: relative;
   left: 85%;
   top: 1rem;
+  cursor: pointer;
 }
 
 #close-mark {

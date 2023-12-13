@@ -9,11 +9,14 @@
     headline="Demnächst"
     imgSrc=src/assets/pictures/whats-next.jpg
     captionText="dies ist ein beispiel"
+    link="#demnächst"
+    id="demnächst"
   />
   <hr />
   <heading-pics-description headline="Aktuelles"
     imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
+    captionText="dies ist ein beispiel" link="#aktuelles" id="aktuelles"
+    />
   <hr />
   <heading-pics-description headline="Neueste Beiträge"
     imgSrc=src/assets/pictures/whats-next.jpg

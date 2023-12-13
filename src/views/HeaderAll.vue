@@ -2,7 +2,7 @@
   <main>
     <input type="checkbox" name="menu" id="menu" v-model="mainStore.burgerActive" />
     <label for="menu">
-      <font-awesome-icon icon="fa-solid fa-bars" style="color: white" />
+      <font-awesome-icon icon="fa-solid fa-bars" style="color: white" id="menu-icon" />
     </label>
     <div>
       <h1>Mallorca</h1>
@@ -27,6 +27,10 @@ export default {
 <style scoped>
 #menu {
   display: none;
+}
+
+#menu-icon {
+  cursor: pointer;
 }
 
 main {
