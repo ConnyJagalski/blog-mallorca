@@ -1,5 +1,14 @@
 <template>
-  <side-bar />
+  <side-bar>
+    <ul>
+      <li><a href="#demnächst">Demnächst</a></li>
+      <li><a href="#aktuelles">Aktuelles</a></li>
+      <li><a href="#neueste">Neueste Beiträge</a></li>
+      <li><a href="#beliebt">Beliebt</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#auswandern">Auswandern</a></li>
+    </ul>
+  </side-bar>
   <header-all />
   <router-view />
 </template>

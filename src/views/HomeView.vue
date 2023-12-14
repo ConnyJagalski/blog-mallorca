@@ -9,30 +9,29 @@
     headline="Demnächst"
     imgSrc=src/assets/pictures/whats-next.jpg
     captionText="dies ist ein beispiel"
-    link="#demnächst"
     id="demnächst"
   />
   <hr />
   <heading-pics-description headline="Aktuelles"
     imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel" link="#aktuelles" id="aktuelles"
+    captionText="dies ist ein beispiel" id="aktuelles"
     />
   <hr />
   <heading-pics-description headline="Neueste Beiträge"
     imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
+    captionText="dies ist ein beispiel" id="neueste"/>
   <hr />
   <heading-pics-description headline="Beliebt"
     imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
+    captionText="dies ist ein beispiel" id="beliebt"/>
   <hr />
   <heading-pics-description headline="Shop"
     imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
+    captionText="dies ist ein beispiel" id="shop"/>
   <hr>
   <heading-pics-description headline="Auswandern"
     imgSrc=src/assets/pictures/whats-next.jpg
-    captionText="dies ist ein beispiel"/>
+    captionText="dies ist ein beispiel" id="auswandern"/>
   <hr />
 </template>
 

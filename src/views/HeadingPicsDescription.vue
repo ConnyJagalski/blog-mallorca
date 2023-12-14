@@ -1,5 +1,5 @@
 <template>
-  <h2>{{ headline }}</h2>
+  <h2 :id="id">{{ headline }}</h2>
   <div>
     <figure v-for="index in 5" :key="index">
       <router-link to="/demnächst/eins">
@@ -13,7 +13,7 @@
 <script>
 export default {
   name: 'HeadingPicsDescription',
-  props: ['headline', 'imgSrc', 'imgAltText', 'captionText']
+  props: ['headline', 'imgSrc', 'imgAltText', 'captionText', 'id']
 }
 </script>
 

@@ -5,14 +5,7 @@
       <label for="close-mark">
         <font-awesome-icon icon="fa-solid fa-xmark" style="color: black" id="xmark" />
       </label>
-      <ul>
-        <li><a href="link">Demnächst</a></li>
-        <li><a href="link">Aktuelles</a></li>
-        <li>Neueste Beiträge</li>
-        <li>Beliebt</li>
-        <li>Shop</li>
-        <li>Auswandern</li>
-      </ul>
+      <slot></slot>
     </div>
   </transition>
 </template>
@@ -22,7 +15,6 @@ import { useMainStore } from '@/stores/mainStore.js'
 
 export default {
   name: 'SideBar',
-  props: ['link'],
   setup() {
     const mainStore = useMainStore()
     return {
