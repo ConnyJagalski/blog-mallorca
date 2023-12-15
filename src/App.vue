@@ -27,4 +27,18 @@ export default {
 
 /* font-family: 'Indie Flower', cursive;
 font-family: 'Satisfy', cursive; */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-block: 1.5rem;
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
 </style>

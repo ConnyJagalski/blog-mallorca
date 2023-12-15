@@ -3,7 +3,7 @@
     <div v-if="mainStore.burgerActive" id="menu">
       <input type="checkbox" id="close-mark" v-model="mainStore.burgerActive" />
       <label for="close-mark">
-        <font-awesome-icon icon="fa-solid fa-xmark" style="color: black" id="xmark" />
+        <font-awesome-icon icon="fa-solid fa-xmark" style="color: antiquewhite" id="xmark" />
       </label>
       <slot></slot>
     </div>
@@ -42,15 +42,6 @@ export default {
 .burger-menu-enter-from,
 .burger-menu-leave-to {
   opacity: 0;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  margin-block: 1.5rem;
-  margin-right: 1rem;
 }
 
 #xmark {

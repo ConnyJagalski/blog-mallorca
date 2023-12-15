@@ -2,7 +2,7 @@
   <main>
     <input type="checkbox" name="menu" id="menu" v-model="mainStore.burgerActive" />
     <label for="menu">
-      <font-awesome-icon icon="fa-solid fa-bars" style="color: white" id="menu-icon" />
+      <font-awesome-icon icon="fa-solid fa-bars" style="color: antiquewhite" id="menu-icon" />
     </label>
     <div>
       <h1>Mallorca</h1>
@@ -50,7 +50,7 @@ div {
 
 h1 {
   margin: 0;
-  color: white;
+  color: antiquewhite;
   text-shadow: purple 1px 1px 5px;
 }
 </style>
